@@ -1,0 +1,16 @@
+D:\Practice\vpn\vpn\bin\Debug\vpn.exe.config
+D:\Practice\vpn\vpn\bin\Debug\vpn.exe
+D:\Practice\vpn\vpn\bin\Debug\vpn.pdb
+D:\Practice\vpn\vpn\obj\Debug\vpn.csproj.AssemblyReference.cache
+D:\Practice\vpn\vpn\obj\Debug\vpn.csproj.SuggestedBindingRedirects.cache
+D:\Practice\vpn\vpn\obj\Debug\MainWindow.g.cs
+D:\Practice\vpn\vpn\obj\Debug\App.g.cs
+D:\Practice\vpn\vpn\obj\Debug\vpn_MarkupCompile.cache
+D:\Practice\vpn\vpn\obj\Debug\vpn_MarkupCompile.lref
+D:\Practice\vpn\vpn\obj\Debug\MainWindow.baml
+D:\Practice\vpn\vpn\obj\Debug\vpn.g.resources
+D:\Practice\vpn\vpn\obj\Debug\vpn.Properties.Resources.resources
+D:\Practice\vpn\vpn\obj\Debug\vpn.csproj.GenerateResource.cache
+D:\Practice\vpn\vpn\obj\Debug\vpn.csproj.CoreCompileInputs.cache
+D:\Practice\vpn\vpn\obj\Debug\vpn.exe
+D:\Practice\vpn\vpn\obj\Debug\vpn.pdb

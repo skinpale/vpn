@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9bc1ae63-ac81-422a-97ca-2cb7cd7ca1b7": {
+      "ProjectGuid": "9bc1ae63-ac81-422a-97ca-2cb7cd7ca1b7",
+      "DisplayName": "vpn",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
