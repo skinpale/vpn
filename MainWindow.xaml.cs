@@ -10,6 +10,7 @@ namespace vpn
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Content = new LicenseAgreement(false);
         }
     }
 }

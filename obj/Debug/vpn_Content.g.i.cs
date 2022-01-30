@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("the_world-wallpaper-960x600.jpg")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("%d0%a1%d0%bd%d0%b8%d0%bc%d0%be%d0%ba%20%d1%8d%d0%ba%d1%80%d0%b0%d0%bd%d0%b0%20202" +
+    "2-01-29%20152742.png")]
 
 

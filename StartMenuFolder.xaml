@@ -1,0 +1,51 @@
+﻿<Page x:Class="vpn.StartMenuFolder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:vpn"
+        mc:Ignorable="d"
+        Title="Setup - VPN Unlimited 8.5.3" Height="480" Width="600" Background="#1a1a1a">
+    <Grid Background="#fdfdfd">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="300"/>
+            <RowDefinition Height="90"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <Label Grid.Row="0" HorizontalAlignment="Left"  Content="Select Start Menu Folder" FontWeight="Bold" Margin="20 5 0 0" FontSize="14"/>
+            <Label Grid.Row="0" HorizontalAlignment="Left" FontWeight="Regular" Content="Where should Setup place the program's shortcuts?" Margin="40 0 0 0" FontSize="12" Width="auto"/>
+        </StackPanel>
+        <Image Grid.Row="0" HorizontalAlignment="Right" Width="80" Source="vpnUnlimited.png"/>
+        <Border Grid.Row="1" Grid.RowSpan="2" Background="#FFF0F0F0"></Border>
+        <Border Grid.Row="1" BorderThickness="0,1,0,1" BorderBrush="#FFACACAC" Visibility="Visible">
+            <StackPanel Width="450">
+                <Grid Margin="0 10 0 15" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="415"/>
+                    </Grid.ColumnDefinitions>
+                    <Image VerticalAlignment="Center" Grid.Column="0" Width="30" Height="30" Source="startMenu.png"/>
+                    <TextBlock VerticalAlignment="Center" Grid.Column="1" Background="Transparent" TextWrapping="Wrap" >Setup will create the program's shortcuts in the following Start Menu Folder.</TextBlock>
+                </Grid>
+                <TextBlock Grid.Column="1" Margin="0 0 0 10" Background="Transparent" TextWrapping="Wrap" >To continue, click Next. If you would like to select a different folder, click Browse</TextBlock>
+                <Grid Height="22">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="330"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <TextBox x:Name="Url" Grid.Column="0" Width="330" HorizontalAlignment="Left">VPN Unlimited</TextBox>
+                    <Button x:Name="Browse" Grid.Column="1" Width="80" Content="Browse..." Cursor="Hand" Click="Browse_Click"/>
+                </Grid>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="2" Margin="0,0,0,18">
+            <Grid Width="260" HorizontalAlignment="Right" Margin="0 0 20 0">
+                <Button x:Name="Back" HorizontalAlignment="Left" Height="25" Width="80" Content="Back" Cursor="Hand" Click="Back_Click"/>
+                <Button x:Name="Next" HorizontalAlignment="Center" Height="25" Width="80" Content="Next" Cursor="Hand" Click="Next_Click"/>
+                <Button x:Name="Cancel" HorizontalAlignment="Right" Height="25" Width="80" Content="Cancel" Cursor="Hand" Click="Cancel_Click"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>
+

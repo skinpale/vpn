@@ -1,0 +1,39 @@
+﻿<Page x:Class="vpn.LicenseAgreement"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:vpn"
+        mc:Ignorable="d"
+        Title="Setup - VPN Unlimited 8.5.3" Height="480" Width="600" Background="#1a1a1a">
+    <Grid Background="#fdfdfd">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="300"/>
+            <RowDefinition Height="90"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <Label Grid.Row="0" Content="License Agreement" FontWeight="Bold" Margin="20 5 0 0" FontSize="14"/>
+            <Label Grid.Row="0" FontWeight="Regular" Content="Please read the following important information before continuing." Margin="40 0 0 0" FontSize="12"/>
+        </StackPanel>
+        <Image Grid.Row="0" HorizontalAlignment="Right" Width="80" Source="vpnUnlimited.png"/>
+        <Border Grid.Row="1" Grid.RowSpan="2" Background="#FFF0F0F0"></Border>
+        <Border Grid.Row="1" BorderThickness="0,1,0,1" BorderBrush="#FFACACAC" Visibility="Visible">
+            <StackPanel Width="450">
+                <TextBlock Margin="0 10 0 10" Background="Transparent" TextWrapping="Wrap" >Please read the following License Agreement. You must accept the terms of this agreement before continuing with the installation</TextBlock>
+                <ScrollViewer Height="180" Background="#fdfdfd" CanContentScroll="True" VerticalScrollBarVisibility="Auto" UseLayoutRounding="False">
+                    <TextBox x:Name="License" MaxWidth="450" TextWrapping="Wrap" IsReadOnly="True"/>
+                </ScrollViewer>
+                <RadioButton x:Name="Accept" Margin="0 15 0 5" Content="I accept the agreement" Click="Accept_Click"/>
+                <RadioButton x:Name="Not_accept" Content="I do not accept the agreement" Click="Not_accept_Click" IsChecked="True"/>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="2" Margin="0,0,0,18">
+            <Grid Width="170" HorizontalAlignment="Right" Margin="0 0 20 0">
+                <Button x:Name="Next" HorizontalAlignment="Left" Height="25" Width="80" Content="Next" Cursor="Hand" Click="Next_Click"/>
+                <Button x:Name="Cancel" HorizontalAlignment="Right" Height="25" Width="80" Content="Cancel" Cursor="Hand" Click="Cancel_Click"/>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>
+
